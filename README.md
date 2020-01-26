@@ -43,4 +43,12 @@ The recommendation system was evaluated using the Area Under the ROC curve for a
             
             AUC(popular recommendations): 0.859
 
+## Conclusion
+
+Even though the model could not outperform the baselines, it is a great starting point. New systems could be built using different algorithms to produce better results. Having said this, it does not mean that the recommendations are not inappropriate. The recommendation system was used to recommend one of our classmates, the groups she might be interested to be part of and most of them aligned with the topics she likes (based on her RSVP counts).
+
+
+
+
+
 
