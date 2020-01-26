@@ -20,10 +20,22 @@ The recommendation system was evaluated using the Area Under the ROC curve for a
 
 2. Data wrangling to create user-item matrix using implicit feedbacks:
 
-      RSVP counts: Number of times a user has attended a group's event
-      TimeDelta: The number of days between a user joined the group and the last event he attended of that group
+      a. RSVP counts: Number of times a user has attended a group's event
+      
+      b. TimeDelta: The number of days between a user joined the group and the last event he attended of that group
       
 3. Hyperparameter tuning using PySpark on the Databrick platform
 
 4. Final recommendations using the selected hyperparameters
+
+
+## Results
+
+1.    ALS using RSVP Counts:
+            AUC(model): 0.761
+            AUC(popular recommendations): 0.837
+2.    ALS using TimeDelta:
+            AUC(model): 0.809
+            AUC(popular recommendations): 0.859
+
 
